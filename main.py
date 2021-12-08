@@ -1,3 +1,7 @@
+# Author: Mikołaj Mroczkowski
+# GitHub Url: https://github.com/MikolajMroczkowski/sieveOfEratosthenes/tree/master
+# Licese: GNU General Public License v3.0 (avalible in github repo)
+
 def Sito(n):
     tab = list()
     for x in range(0,n):
@@ -13,5 +17,5 @@ def Sito(n):
         if tab[x]=="T":
             wyniki += str(x)+" "
     return wyniki
-print(Sito(10))
+print(Sito(1000))
 
